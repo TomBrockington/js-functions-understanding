@@ -5,11 +5,11 @@
 
 function myFunction(num1) {
     if(true) {
-        return -10
+      return -10
     }
-
+  
     return num1 * 10
 }
-let num1
-const result = myFunction(num1)
+  
+const result = myFunction(5)
 console.log(result)
